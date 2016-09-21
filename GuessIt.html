@@ -1,0 +1,24 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="GuessIt.css">
+ <script src="GuessIt.js"></script>
+ <title>Guess It!</title>
+</head>
+
+
+<body>
+ <div id= "gamePanel">
+  <div id="gameTitle">
+   <br/>I have a number(< 1MM) in mind...<br/><br/>
+   <span id="gameName">GUESS IT!</span><br/>
+   <textarea id="guessTextArea"></textarea><br/>
+   <button id="less" onClick="onClickLess();"> &lt; </button>
+   <button id="equals" onClick="onClickEquals();"> = </button>
+   <button id="greater" onClick="onClickGreater();"> &gt; </button>
+   </br></br>
+   Your Guesses Are Below:<br/>
+   <div id="guessesDiv">
+   </div>
+</div>
+</body>
+</html>

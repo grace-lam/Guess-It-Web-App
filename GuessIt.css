@@ -1,0 +1,74 @@
+/**
+ * Styles for the GuessIt Game (Foothill STEM Summer Workshop)
+ * Author: Grace Lam
+ * Date: July 16, 2014
+ */
+ 
+  #gamePanel {
+   width:320px;
+   height:568px;
+   border:1px solid powderblue;
+   margin:auto;
+   background-color:powderblue;
+   text-align:center;
+  }
+
+  #gameTitle {
+   text-align:center;
+   font-family:"Comic Sans Ms";
+   color:#8A2BE2;
+   font-size:115%
+  }
+
+  #gameName {
+   font-size:170%;
+   font-weight:bold;
+   color:#3B3178;
+  }
+
+  #guessTextArea {
+   -webkit-transition:all 500ms;
+   width:220px;
+   height:55px;
+   text-align:center;
+   font-size:300%;
+   outline:none;
+  } 
+ 
+  #guessTextArea:focus {
+   background-color:lightcyan;
+   border-radius:40px;
+  }
+
+  #guessesDiv {
+   border:1px inset lightcyan;
+   background-color:lightcyan;
+   width:270px;
+   height:280px;
+   margin:auto;
+   font-size:80%;
+   overflow:auto;
+   color:black;
+  }
+  
+  button {
+   -webkit-transition:all 500ms;
+   background-color:#8780F6;
+   border-radius:10px;
+   border:2px outset;
+   outline:none;
+   font-size:20px;
+   width:70px;
+  }
+  
+  button:hover {
+   -webkit-transition:all 500ms;
+   background-color:#C8CDF0;
+  }
+  
+  button:active {
+   -webkit-transition:all 500ms;
+   background-color:#8780F6;
+   border:2px inset white;
+   color:white;
+  }
